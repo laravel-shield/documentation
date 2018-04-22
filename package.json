@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "vuepress": "^0.7.1"
   }
 }
