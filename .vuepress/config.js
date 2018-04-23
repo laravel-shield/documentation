@@ -10,7 +10,8 @@ module.exports = {
         ],
         sidebar: [
             ['/', 'Home'],
-            ['/getting-started/', 'Getting Started'],
+            ['guide/getting-started', 'Getting Started'],
+            ['guide/contributing', 'Contributing'],
             {
                 title: 'Services',
                 collapsable: false,

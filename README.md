@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.png
 actionText: Get Started →
-actionLink: /getting-started/
+actionLink: /guide/getting-started
 features:
 - title: "Tested"
   details: All services are built with a high quality and include high test coverage.
