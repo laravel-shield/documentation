@@ -2,7 +2,7 @@ module.exports = {
     title: 'Laravel Shield',
     description: 'A middleware to protect against unverified webhooks from 3rd party services.',
     themeConfig: {
-        search: false,
+        search: true,
         nav: [
             {text: 'Twitter', link: 'https://twitter.com/LaravelShield'},
             {text: 'GitHub', link: 'https://github.com/laravel-shield'},
@@ -16,10 +16,16 @@ module.exports = {
                 title: 'Services',
                 collapsable: false,
                 children: [
-                    'services/stripe',
                     'services/bitbucket-server',
                     'services/box',
+                    'services/braintree',
+                    'services/facebook-messenger',
                     'services/github',
+                    'services/gitlab',
+                    'services/mailgun',
+                    'services/shopify',
+                    'services/stripe',
+                    'services/zapier',
                 ].sort()
             }
         ]

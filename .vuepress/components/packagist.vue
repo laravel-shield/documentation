@@ -25,8 +25,8 @@
         data() {
             return {
                 installs: 0,
-                version: '',
-                license: '',
+                version: 'unknown',
+                license: 'unknown',
             }
         },
         mounted() {
